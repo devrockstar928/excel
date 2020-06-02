@@ -1,0 +1,37 @@
+{
+  "name": "excel",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "^3.1.1"
+  },
+  "dependencies": {
+    "gh-pages": "^2.1.1",
+    "mathjs": "^6.2.1",
+    "react": "^15.4.2",
+    "react-dnd": "^2.5.4",
+    "react-dnd-html5-backend": "^2.5.4",
+    "react-dom": "^15.4.2",
+    "react-select": "^1.0.0-rc.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
